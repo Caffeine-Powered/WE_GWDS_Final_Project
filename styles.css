@@ -45,13 +45,16 @@ li{
 
 .home-section-one{
     background-color:black;
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
-    justify-content: center;
     align-items: center; 
+    justify-content: center;
+    
 }
 
 .home-image{
+
+    margin:10px;
     border: 5px solid #900C3F;
     border-radius:10px;
     box-shadow: 5px 5px 10px white;
@@ -64,6 +67,7 @@ li{
 footer{
     background-color: #900C3F;
     height: 100px;
+    padding:10px 0px;
 }
 
 p{
@@ -93,11 +97,9 @@ p{
   
   /* Change the color of links on hover */
   .navbar a:hover {
-    background-color:black;
-    color: white;
-    box-shadow: 0 5px #ffa7c8;
     transform:translateY(-5px);
     font-size:25px;
+    font-weight: bolder;
 
   }
   
