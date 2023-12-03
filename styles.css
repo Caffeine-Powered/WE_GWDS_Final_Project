@@ -5,6 +5,7 @@ body{
 header {
     background-color: #900C3F;
     padding: 10px 0px 10px 0px;
+    height: 180px;
 }
 
 h1{
@@ -33,13 +34,33 @@ li{
 }
 
 .media-container{
-    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+
     align-items: center;
+
 }
 
+.home-section-one{
+    background-color:black;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-image{
+    border: 5px solid #900C3F;
+    border-radius:10px;
+    box-shadow: 5px 5px 10px white;
+    align-items: center;
+
+}
+
+
+/*/////////////////////footer/////////////////////////*/
 footer{
     background-color: #900C3F;
     height: 100px;
@@ -49,3 +70,39 @@ p{
     color:white;
     text-align:center;
 }
+
+/*////////////////Nav Bar//////////////////*/
+
+.navbar{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.navbar a {
+
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1px 16px;
+    text-decoration:solid;
+    font-size: 20px;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color:black;
+    color: white;
+    box-shadow: 0 5px #ffa7c8;
+    transform:translateY(-5px);
+    font-size:25px;
+
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
