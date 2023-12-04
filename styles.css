@@ -1,4 +1,5 @@
 body{
+    height:100vh;
     background-color: black;
     background-image: linear-gradient(black,rgb(37, 37, 37));
     /*background-image:url("home_images/GWDS_Slide1.png");
@@ -9,10 +10,9 @@ body{
 }
 
 header{
-    position: absolute;
-    top:0%;
+    position: sticky;
     background-image:linear-gradient(black,#900C3F);
-    width:auto;
+    width: 26%;
     margin: 0px 50px;
     z-index: 2;
 }
@@ -30,14 +30,14 @@ h1{
 
 
 .home-section-one{
-    
+    margin-top: auto;
     padding: 20px 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center; 
     justify-content: center;
-    height: 1000px;
-    padding-bottom: 100px;
+    height:70vh;
+    
 }
 
 .home-image{
@@ -70,7 +70,7 @@ footer{
 
     position:fixed;
     bottom: 0;
-    float: left;
+    left: 0;
     width:100%;
     background-image:linear-gradient(#900C3F,black);
     height: 120px;
@@ -114,3 +114,10 @@ button:active{
     box-shadow: 0 5px white; opacity: 50%;
     transform:translateY(4px);
 }
+
+
+@media only screen and (max-width: 1700px) {
+    header {
+      width: initial;
+    }
+  }
