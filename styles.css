@@ -1,9 +1,11 @@
 body{
     background-color: black;
-    background-image:url("home_images/GWDS_Slide1.png");
+    background-image: linear-gradient(black,rgb(37, 37, 37));
+    /*background-image:url("home_images/GWDS_Slide1.png");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: 100% 100%;
+    */
 }
 
 header{
@@ -53,11 +55,13 @@ h1{
 {
     background-color:grey;
     filter:grayscale(100%);
+    transform:translateY(10px);
+    cursor:pointer;
 }
 
 .home-image:active{
     background-color: #ec7aa6; opacity: 50%;
-    box-shadow: 0 5px black; opacity: 80%;
+    box-shadow: 0 10px black; opacity: 80%;
     transform:translateY(4px);
 }
 
@@ -79,6 +83,7 @@ p{
     font-family: "citrus-gothic" ,sans-serif;
     font-size: 30px;
     color:white;
+    text-shadow: 4px 4px black;
     text-align:center;
 }
 
@@ -91,6 +96,7 @@ button{
     border-radius: 5px;
     font-family: "citrus-gothic" ,sans-serif;
     font-size: 20px;
+    text-shadow: 4px 4px black;
     padding: 10px;
     margin: 2px;
     transition-duration: .4s;
@@ -99,7 +105,8 @@ button{
 
 button:hover{
     background-color:black; opacity: 70%;
-    color:#900C3F;    
+    color:#900C3F;  
+    cursor:pointer;  
 }
 
 button:active{
