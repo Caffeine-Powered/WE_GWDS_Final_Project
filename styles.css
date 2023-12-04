@@ -76,6 +76,8 @@ footer{
 }
 
 p{
+    font-family: "citrus-gothic" ,sans-serif;
+    font-size: 30px;
     color:white;
     text-align:center;
 }
