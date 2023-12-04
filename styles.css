@@ -1,8 +1,10 @@
 body{
-    background-color:black;
+    background-color: black;
+    background-image:url("home_images/GWDS_Slide1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 90%;
 }
-
-
 
 h1{
     font-size: 20px;
@@ -31,12 +33,12 @@ h1{
 }
 
 .home-section-one{
-    background-color:black;
     padding: 20px 10px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center; 
     justify-content: center;
-    
+    height: 1000px;
 }
 
 .home-image{
@@ -52,7 +54,7 @@ h1{
 
 /*/////////////////////footer/////////////////////////*/
 footer{
-    background-color: #900C3F;
+    background-color: #900C3F; opacity: 50%;
     height: 100px;
     padding:10px 0px;
 }
@@ -61,6 +63,8 @@ p{
     color:white;
     text-align:center;
 }
+
+/*//////////////////////Navigation////////////*/
 
 button{
     color:white;
@@ -80,7 +84,7 @@ button:hover{
 }
 
 button:active{
-    background-color: #3e8e41;
-    box-shadow: 0 5px darkred;
+    background-color: #ec7aa6;
+    box-shadow: 0 5px white;
     transform:translateY(4px);
 }
