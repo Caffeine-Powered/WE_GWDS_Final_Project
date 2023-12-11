@@ -1,7 +1,7 @@
-body{
-    height:100vh;
+body {
+    height: 100vh;
     background-color: black;
-    background-image: linear-gradient(black,rgb(37, 37, 37));
+    background-image: linear-gradient(black, rgb(37, 37, 37));
     /*background-image:url("home_images/GWDS_Slide1.png");
     background-repeat: no-repeat;
     background-position: fixed;
@@ -9,92 +9,93 @@ body{
     */
 }
 
-header{
+header {
     position: sticky;
-    background-image:linear-gradient(black,#900C3F);
+    background-image: linear-gradient(black, #900C3F);
     width: 26%;
     margin: 0px 50px;
     z-index: 2;
 }
 
-h1{
-    font-family: "citrus-gothic" ,sans-serif;
+h1 {
+    font-family: "citrus-gothic", sans-serif;
     font-size: 30px;
     margin-right: auto;
 }
 
-.push{
+.push {
     margin-left: auto;
 }
 
 
 
-.home-section-one{
+.home-section-one {
     margin-top: auto;
     padding: 20px 10px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
-    height:70vh;
-    
+    height: 70vh;
+
 }
 
-.home-image{
+.home-image {
 
-    margin:10px;
-    border: 5px solid #900C3F; 
-    border-radius:20px;
+    margin: 10px;
+    border: 5px solid #900C3F;
+    border-radius: 20px;
     box-shadow: 5px 5px 10px black;
     align-items: center;
-    z-index:1;
+    z-index: 1;
 
 }
 
-.home-image:hover
-{
-    background-color:grey;
-    filter:grayscale(100%);
-    transform:translateY(10px);
-    cursor:pointer;
+.home-image:hover {
+    background-color: grey;
+    filter: grayscale(100%);
+    transform: translateY(10px);
+    cursor: pointer;
 }
 
-.home-image:active{
-    background-color: #ec7aa6; opacity: 50%;
-    box-shadow: 0 10px black; opacity: 80%;
-    transform:translateY(4px);
+.home-image:active {
+    background-color: #ec7aa6;
+    opacity: 50%;
+    box-shadow: 0 10px black;
+    opacity: 80%;
+    transform: translateY(4px);
 }
 
 /*/////////////////////footer/////////////////////////*/
-footer{
+footer {
 
-    position:fixed;
+    position: fixed;
     bottom: 0;
     left: 0;
-    width:100%;
-    background-image:linear-gradient(#900C3F,black);
+    width: 100%;
+    background-image: linear-gradient(#900C3F, black);
     height: 120px;
-    padding:10px 0px;
-    z-index:2;
-    
+    padding: 10px 0px;
+    z-index: 2;
+
 }
 
-p{
-    font-family: "citrus-gothic" ,sans-serif;
+p {
+    font-family: "citrus-gothic", sans-serif;
     font-size: 30px;
-    color:white;
+    color: white;
     text-shadow: 4px 4px black;
-    text-align:center;
+    text-align: center;
 }
 
 /*//////////////////////Navigation////////////*/
 
-button{
-    color:white;
+button {
+    color: white;
     background-color: transparent;
     border: none;
     border-radius: 5px;
-    font-family: "citrus-gothic" ,sans-serif;
+    font-family: "citrus-gothic", sans-serif;
     font-size: 20px;
     text-shadow: 4px 4px black;
     padding: 10px;
@@ -103,35 +104,38 @@ button{
     z-index: 3;
 }
 
-button:hover{
-    background-color:black; opacity: 70%;
-    color:#900C3F;  
-    cursor:pointer;  
+button:hover {
+    background-color: black;
+    opacity: 70%;
+    color: #900C3F;
+    cursor: pointer;
 }
 
-button:active{
-    background-color: #ec7aa6; opacity: 50%;
-    box-shadow: 0 5px white; opacity: 50%;
-    transform:translateY(4px);
+button:active {
+    background-color: #ec7aa6;
+    opacity: 50%;
+    box-shadow: 0 5px white;
+    opacity: 50%;
+    transform: translateY(4px);
 }
 
 
 
 
-.Poster_Section_One{
-    flex-wrap:wrap;
-    flex-direction:column;
-}
-
-.poster_image{
+.Poster_Section_One {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    max-width: 20%;
-    max-height: 20%;
-    border: 5px solid #900C3F; 
-    border-radius:20px;
-    box-shadow: 5px 5px 10px black;
-  
 }
-  
+
+.poster_image {
+    margin: 20px;
+    width: 600px;
+    height: 849px;
+    border: 5px solid #900C3F;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+
+}
