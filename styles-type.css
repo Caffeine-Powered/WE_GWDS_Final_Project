@@ -86,47 +86,47 @@ button:active {
     opacity: 50%;
     transform: translateY(4px);
 }
-/*/////////////////PosterSection//////////////////*/
+/*/////////////////TypeSection//////////////////*/
 
-.Posters {
+.typography-container{
+    display:flex;
+    margin:20px;
     background-color: #ec7aa6;
 }
 
-.poster-container {
-    display: flex;
-    align-items:center;
-    float:left;
-    margin-left:200px;
-    margin-right:200px;
-    margin-top:50px;
-    margin-bottom:50px;
-    
+.typography-container2{
+    display:flex;
+    margin:20px;
+    background-color: aqua;
 }
 
-.poster_image {
-    margin: 20px;
-    width: 600px;
-    height: 849px;
-    border: 5px solid #900C3F;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
-
+.typography-container3{
+    display:flex;
+    margin:20px;
+    background-color: chartreuse;
 }
 
-.poster_image:hover {
-    transition-duration: .4s;
-    background-color: grey;
-    transform:scale(1.1);
-    cursor: pointer;
+.typography-container4{
+    display:flex;
+    margin:20px;
+    background-color:darkgoldenrod;
+}
+
+.type-image{
+    margin:20px;
+    width:400px;
+    height:400px;
 }
 
 
 
-p2 {
-    background-color: #900C3F;
+  p2 {
     padding: 10px;
-    margin-left:50px;
+    margin:50px;
+    width:400px;
+    
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color:white;
+    background-color: #900C3F;
 }
