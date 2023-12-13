@@ -32,40 +32,7 @@ h1 {
     margin-left: auto;
 }
 
-.home-section-one {
-    margin-top: auto;
-    padding: 20px 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
 
-.home-image {
-
-    margin: 10px;
-    border: 5px solid #900C3F;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
-    align-items: center;
-    z-index: 1;
-
-}
-
-.home-image:hover {
-    background-color: grey;
-    filter: grayscale(100%);
-    transform: translateY(10px);
-    cursor: pointer;
-}
-
-.home-image:active {
-    background-color: #ec7aa6;
-    opacity: 50%;
-    box-shadow: 0 10px black;
-    opacity: 80%;
-    transform: translateY(4px);
-}
 
 /*/////////////////////footer/////////////////////////*/
 footer {
@@ -120,4 +87,36 @@ button:active {
     opacity: 50%;
     transform: translateY(4px);
 }
+/*/////////////////PosterSection//////////////////*/
 
+.Poster_Containter {
+    display: flex;
+    align-items:center;
+    float:left;
+}
+
+.poster_image {
+
+    margin: 20px;
+    width: 600px;
+    height: 849px;
+    border: 5px solid #900C3F;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.poster_image:hover {
+    background-color: grey;
+    transform:scale(1.2);
+    cursor: pointer;
+}
+
+
+
+p2 {
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color:white;
+}
