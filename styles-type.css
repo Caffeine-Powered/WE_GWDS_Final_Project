@@ -90,32 +90,51 @@ button:active {
 
 .typography-container{
     display:flex;
+    align-content: center;
+    justify-content: center;
     margin:20px;
-    background-color: #ec7aa6;
+    background-color: rgb(26, 26, 26);
+    border:10px solid #900C3F;
 }
 
 .typography-container2{
     display:flex;
+    align-content: center;
+    justify-content: center;
     margin:20px;
-    background-color: aqua;
+    background-color: rgb(26, 26, 26);
+    border:10px solid #900C3F;
 }
 
 .typography-container3{
     display:flex;
+    align-content: center;
+    justify-content: center;
     margin:20px;
-    background-color: chartreuse;
+    background-color:rgb(26, 26, 26);
+    border:10px solid #900C3F;
 }
 
 .typography-container4{
     display:flex;
+    align-content: center;
+    justify-content: center;
     margin:20px;
-    background-color:darkgoldenrod;
+    background-color:rgb(26, 26, 26);
+    border:10px solid #900C3F;
 }
 
 .type-image{
     margin:20px;
+    border:15px solid white;
     width:400px;
     height:400px;
+}
+
+.type-image:hover{
+    transition-duration: .4s;
+    transform:scale(1.1);
+    cursor: pointer;
 }
 
   p2 {
