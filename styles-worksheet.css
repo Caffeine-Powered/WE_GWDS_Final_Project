@@ -1,8 +1,8 @@
 body {
     height: 100vh;
-    background-color: black;
     min-height: 100%;
-    background-image: linear-gradient(black, rgb(37, 37, 37))no-repeat;
+    background-color: black;
+
 
 }
 
@@ -86,45 +86,52 @@ button:active {
     opacity: 50%;
     transform: translateY(4px);
 }
-/*/////////////////TypeSection//////////////////*/
+/*/////////////////WorksheetSection//////////////////*/
 
-.typography-container{
-    display:flex;
-    margin:20px;
-    background-color: #ec7aa6;
+.worksheets{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
-.typography-container2{
-    display:flex;
-    margin:20px;
-    background-color: aqua;
-}
-
-.typography-container3{
-    display:flex;
-    margin:20px;
-    background-color: chartreuse;
-}
-
-.typography-container4{
-    display:flex;
-    margin:20px;
-    background-color:darkgoldenrod;
-}
-
-.type-image{
-    margin:20px;
+.work-image{
     width:400px;
     height:400px;
+    margin:20px;
+    border: 10px solid #900C3F;
+    border-radius: 10px;
 }
 
-  p2 {
-    padding: 10px;
+.work-image:hover{
+    background-color: black;
+    opacity: 70%;
+    color: #900C3F;
+    cursor: pointer;
+}
+
+.text-ws{
+    display: flex;
+    flex-direction: column;
+    background-color:#900C3F;
     margin:50px;
-    width:400px;
-    
+    padding:10px;
+    align-items: center;
+    justify-content: center;
+}
+
+p2 {
+    display:flex;
+    flex-direction: column;
+    padding: 10px;
+    margin:100px;
+    margin-left:100px;
+    margin-right:100px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color:white;
-    background-color: #900C3F;
+ 
 }
